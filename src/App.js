@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
-import FileUpload from './components/FileUpload';  // Import the FileUpload component
-import Dashboard from './components/Dashboard';    // Import the Dashboard component
+import FileUpload from './components/FileUpload';
+import Dashboard from './components/Dashboard';
 
 class App extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            data: [],  // This will hold the parsed CSV data
+            data: [],
         };
     }
 
-    // Method to update the data in the state
     setData = (data) => {
         this.setState({ data });
     };

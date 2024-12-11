@@ -5,7 +5,7 @@ class Dashboard extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            data: this.props.data || [],  // Initialize with data from props
+            data: this.props.data || [],
             colorType: 'sentiment',
             selectedTweets: [],
         };
